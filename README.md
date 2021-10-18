@@ -1,2 +1,2 @@
-# Mini-curso-Python-na-Pr-tica
-Repositório com as aulas ministradas no mini curso Python na pratica 
+# Mini-curso-Python-na-Pratica
+Repositório com as aulas ministradas no mini curso Python na prática 
