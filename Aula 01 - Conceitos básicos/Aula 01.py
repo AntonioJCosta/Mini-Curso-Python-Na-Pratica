@@ -1,13 +1,15 @@
-# Exemplo 01 - lista de nomes
+### Exemplo de retorno de funcao - Módulo 6.2
+def calcular_pagamento(qtd_horas, valor_hora):
+  horas = float(qtd_horas)
+  taxa = float(valor_hora)
+  if horas <= 40:
+    salario=horas*taxa
+  else:
+    h_excd = horas - 40
+    salario = 40 * taxa +(h_excd * (1.5 * taxa))
+  return salario
 
-nomes = ["Marcelo", "Lucas", "Angela", "Sabrina", "Marcelo", "Lucas", "Marcio"]
-
-# Funcao input: Guarda o que o usuario digitou em uma variavel
-nome = input("Digite o nome a ser contado: ")
- 
-# Utlizando o método count na lista de strings
-# Método count: retorna o numero de ocorrencias de um valor em uma lista 
-contagem = nomes.count(nome)
-
-# Mostrando o resultado de ocorrencias do valor digitado
-print("O número de ocorrencias referentes ao nome " + nome + " na lista é igual há:", contagem)
+str_horas= input('Digite as horas: ')
+str_taxa=input('Digite a taxa: ')
+total_salario = calcular_pagamento(str_horas,str_taxa)
+print('O valor de seus rendimentos é R$',total_salario)
