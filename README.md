@@ -1,10 +1,5 @@
-<h1 align="center">
-  
- ![jornada_tecnologica](https://user-images.githubusercontent.com/87380701/138800577-669044b2-5553-49d6-a3b8-9208d177e8ec.jpeg)
-</h1>
-
 <h3 align="center" >
-  Repositótio com aulas ministradas no mini curso Python na prática.
+  Web scraping program to collect data from Mercado Livre products
 </h3>
 
 <p align="center">
@@ -28,9 +23,10 @@
 
 </p>
 
-# Primeiro passo
+# First steps
 
-Todos os projetos contém suas devidas instruções
+1 - pip install -r requirements.txt
+2 - run the program
 
 ## Author
 
