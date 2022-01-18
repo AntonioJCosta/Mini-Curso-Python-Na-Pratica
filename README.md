@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">
   
  ![jornada_tecnologica](https://user-images.githubusercontent.com/87380701/138800577-669044b2-5553-49d6-a3b8-9208d177e8ec.jpeg)
@@ -110,4 +109,3 @@ This project is [MIT](https://github.com/Antonio-Costa00/Calculus-exercises/blob
 ---
 
 Made by :blue_heart: by [Antonio Costa](https://github.com/Antonio-Costa00)
->>>>>>> 59fbc86328191196127454f61122eaeab2441a66
